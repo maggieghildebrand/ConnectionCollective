@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connection Collective | Make Friends in Toronto</title>
+    <meta name="description" content="A modern social club for women in their 20s-30s. Curated events + recurring series for real connection. Come solo, get welcomed, leave connected.">
+    
+    <!-- Google Fonts - Distinctive editorial pairing -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- ANNOUNCEMENT BAR (Optional) -->
+    <div class="announcement-bar">
+        <p>Next Event: <strong>Winter Social & Hot Chocolate Bar</strong> — Feb 15 <a href="#events" class="announcement-link">View Tickets →</a></p>
+    </div>
+
+    <!-- STICKY HEADER -->
+    <header class="header" id="header">
+        <div class="container header-content">
+            <div class="logo">
+                <!-- LOGO ASSET: Replace this text with <img src="assets/logo.png" alt="Connection Collective"> -->
+                <a href="#home">Connection Collective</a>
+            </div>
+            
+            <nav class="nav-desktop">
+                <a href="#events">Events</a>
+                <a href="#about">About</a>
+                <a href="#faq">FAQ</a>
+                <a href="#newsletter">Newsletter</a>
+            </nav>
+
+            <div class="header-buttons">
+                <a href="#join" class="btn btn-primary">Join the Community</a>
+                <a href="#events" class="btn-text">See Events</a>
+            </div>
+
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+        <nav>
+            <a href="#events">Events</a>
+            <a href="#about">About</a>
+            <a href="#faq">FAQ</a>
+            <a href="#newsletter">Newsletter</a>
+            <a href="#join" class="btn btn-primary">Join the Community</a>
+        </nav>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Make friends in Toronto—without it being weird.</h1>
+                <p class="hero-subtitle">Curated events + recurring series for women in their 20s–30s who want real connection. Come solo, get welcomed, leave connected.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#join" class="btn btn-primary btn-large">Join the Community</a>
+                    <a href="#events" class="btn btn-secondary btn-large">See Upcoming Events</a>
+                </div>
+
+                <div class="trust-chips">
+                    <span class="chip">Solo-friendly</span>
+                    <span class="chip">Warm + hosted</span>
+                    <span class="chip">No cliques</span>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <!-- HERO IMAGE ASSET: Replace with <img src="assets/hero-image.jpg" alt="Women connecting at event"> -->
+                <div class="hero-image-placeholder">
+                    <p class="placeholder-note">📸 Add your hero image here<br>assets/hero-image.jpg<br><small>Warm, candid shot of people connecting</small></p>
+                </div>
+                <div class="hero-overlay-badge">
+                    Most people come solo
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-stats">
+            <div class="container">
+                <div class="stats-row">
+                    <div class="stat">
+                        <span class="stat-label">Monthly events</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Recurring series</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Toronto-based</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESONANCE / "IF THIS IS YOU" -->
+    <section class="resonance">
+        <div class="container">
+            <h2 class="section-title centered">If making friends lately has felt harder than it should…</h2>
+            <p class="section-intro centered">You're not alone. Adult friendship is surprisingly difficult, and no one talks about it honestly enough.</p>
+            
+            <div class="resonance-grid">
+                <div class="resonance-item">
+                    <div class="resonance-icon">✨</div>
+                    <p>You want plans that aren't just "drinks again"</p>
+                </div>
+                <div class="resonance-item">
+                    <div class="resonance-icon">🌸</div>
+                    <p>Your friendships feel scattered or seasonal</p>
+                </div>
+                <div class="resonance-item">
+                    <div class="resonance-icon">🏙️</div>
+                    <p>You're new-ish to Toronto (or your life is new)</p>
+                </div>
+                <div class="resonance-item">
+                    <div class="resonance-icon">💫</div>
+                    <p>You'd show up… if you didn't have to bring someone</p>
+                </div>
+                <div class="resonance-item">
+                    <div class="resonance-icon">🤝</div>
+                    <p>You miss community that feels consistent</p>
+                </div>
+                <div class="resonance-item">
+                    <div class="resonance-icon">💭</div>
+                    <p>You crave depth, not just surface-level small talk</p>
+                </div>
+            </div>
+
+            <p class="closing-statement">Connection Collective is built for this exact season.</p>
+        </div>
+    </section>
+
+    <!-- WHAT WE DO -->
+    <section class="what-we-do">
+        <div class="container">
+            <h2 class="section-title centered">What Connection Collective is</h2>
+            
+            <div class="value-cards">
+                <div class="value-card">
+                    <div class="card-icon">🎨</div>
+                    <h3>Curated Events</h3>
+                    <p>Small, welcoming experiences designed to spark real conversation—not forced networking.</p>
+                </div>
+                <div class="value-card">
+                    <div class="card-icon">🔄</div>
+                    <h3>Recurring Series</h3>
+                    <p>Pilates, book club, creative nights, socials—so you can come back and actually build relationships.</p>
+                </div>
+                <div class="value-card">
+                    <div class="card-icon">🌿</div>
+                    <h3>A Community You Can Plug Into</h3>
+                    <p>Not a one-off event page—an ongoing space to belong and grow with people.</p>
+                </div>
+            </div>
+
+            <div class="section-cta">
+                <a href="#events" class="btn btn-secondary">See Upcoming Events</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT TO EXPECT -->
+    <section class="what-to-expect">
+        <div class="container">
+            <div class="expect-content">
+                <div class="expect-text">
+                    <h2 class="section-title">What it feels like to come to a CC event</h2>
+                    
+                    <div class="expect-promises">
+                        <div class="promise-item">
+                            <div class="promise-icon">👋</div>
+                            <div class="promise-text">
+                                <h4>You can come alone</h4>
+                                <p>Many people do. It's actively encouraged.</p>
+                            </div>
+                        </div>
+                        <div class="promise-item">
+                            <div class="promise-icon">🤗</div>
+                            <div class="promise-text">
+                                <h4>You'll be welcomed</h4>
+                                <p>Clear structure, gentle hosting, warm introductions.</p>
+                            </div>
+                        </div>
+                        <div class="promise-item">
+                            <div class="promise-icon">🎯</div>
+                            <div class="promise-text">
+                                <h4>It's not networking</h4>
+                                <p>No pressure, no performance, no business cards.</p>
+                            </div>
+                        </div>
+                        <div class="promise-item">
+                            <div class="promise-icon">✨</div>
+                            <div class="promise-text">
+                                <h4>It's curated on purpose</h4>
+                                <p>Thoughtful venues, intentional experiences, warm vibes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="expect-timeline">
+                    <h3>How it works</h3>
+                    <div class="timeline">
+                        <div class="timeline-step">
+                            <div class="timeline-number">1</div>
+                            <p>Buy ticket</p>
+                        </div>
+                        <div class="timeline-arrow">→</div>
+                        <div class="timeline-step">
+                            <div class="timeline-number">2</div>
+                            <p>Get welcome note</p>
+                        </div>
+                        <div class="timeline-arrow">→</div>
+                        <div class="timeline-step">
+                            <div class="timeline-number">3</div>
+                            <p>Show up</p>
+                        </div>
+                        <div class="timeline-arrow">→</div>
+                        <div class="timeline-step">
+                            <div class="timeline-number">4</div>
+                            <p>Light facilitation</p>
+                        </div>
+                        <div class="timeline-arrow">→</div>
+                        <div class="timeline-step">
+                            <div class="timeline-number">5</div>
+                            <p>New connections</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- UPCOMING EVENTS -->
+    <section class="events" id="events">
+        <div class="container">
+            <div class="events-header">
+                <h2 class="section-title">Upcoming Events</h2>
+                <p class="section-subtitle">Start with one. Many people come solo.</p>
+            </div>
+
+            <div class="events-grid">
+                <!-- EVENT CARD 1 -->
+                <div class="event-card">
+                    <!-- EVENT IMAGE ASSET: Add event photos to assets/events/ folder -->
+                    <div class="event-image">
+                        <div class="event-image-placeholder">📸 Event photo</div>
+                        <span class="event-tag">Great for first-timers</span>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">Feb 15, 2026 • 7:00 PM</div>
+                        <h3 class="event-title">Winter Social & Hot Chocolate Bar</h3>
+                        <div class="event-location">📍 Queen West</div>
+                        <div class="event-footer">
+                            <span class="event-price">$35</span>
+                            <a href="#" class="btn btn-small">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EVENT CARD 2 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="event-image-placeholder">📸 Event photo</div>
+                        <span class="event-tag low-key">Low-key</span>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">Feb 20, 2026 • 6:30 PM</div>
+                        <h3 class="event-title">Book Club: Modern Romance Novels</h3>
+                        <div class="event-location">📍 Little Italy</div>
+                        <div class="event-footer">
+                            <span class="event-price">$25</span>
+                            <a href="#" class="btn btn-small">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EVENT CARD 3 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="event-image-placeholder">📸 Event photo</div>
+                        <span class="event-tag active">Active</span>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">Feb 22, 2026 • 10:00 AM</div>
+                        <h3 class="event-title">Aligned Pilates Session</h3>
+                        <div class="event-location">📍 King West</div>
+                        <div class="event-footer">
+                            <span class="event-price">$30</span>
+                            <a href="#" class="btn btn-small">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EVENT CARD 4 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="event-image-placeholder">📸 Event photo</div>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">Feb 27, 2026 • 7:30 PM</div>
+                        <h3 class="event-title">Creative Night: Vision Board Workshop</h3>
+                        <div class="event-location">📍 Leslieville</div>
+                        <div class="event-footer">
+                            <span class="event-price">$40</span>
+                            <a href="#" class="btn btn-small">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EVENT CARD 5 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="event-image-placeholder">📸 Event photo</div>
+                        <span class="event-tag">Great for first-timers</span>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">Mar 1, 2026 • 6:00 PM</div>
+                        <h3 class="event-title">Spring Social: Wine & Paint</h3>
+                        <div class="event-location">📍 Yorkville</div>
+                        <div class="event-footer">
+                            <span class="event-price">$45</span>
+                            <a href="#" class="btn btn-small">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EVENT CARD 6 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="event-image-placeholder">📸 Event photo</div>
+                        <span class="event-tag low-key">Low-key</span>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">Mar 5, 2026 • 7:00 PM</div>
+                        <h3 class="event-title">Trivia Night at Local Brewery</h3>
+                        <div class="event-location">📍 The Junction</div>
+                        <div class="event-footer">
+                            <span class="event-price">$20</span>
+                            <a href="#" class="btn btn-small">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-cta">
+                <a href="#" class="btn btn-secondary">View All Events</a>
+                <a href="#what-to-expect" class="btn-text">How events work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOCIAL PROOF -->
+    <section class="social-proof">
+        <div class="container">
+            <h2 class="section-title centered">What people say after their first event</h2>
+            
+            <div class="testimonials-layout">
+                <div class="testimonials-column">
+                    <div class="testimonial">
+                        <p class="testimonial-text">"I came alone and left with 3 numbers. Everyone was so welcoming—it didn't feel forced at all."</p>
+                        <div class="testimonial-author">— Sarah, 28</div>
+                    </div>
+
+                    <div class="testimonial">
+                        <p class="testimonial-text">"It was the first time I didn't feel weird coming solo. The host made sure everyone felt included."</p>
+                        <div class="testimonial-author">— Maya, 31</div>
+                    </div>
+
+                    <div class="testimonial">
+                        <p class="testimonial-text">"Finally, events that aren't just 'let's grab drinks.' The activities actually help you connect."</p>
+                        <div class="testimonial-author">— Jen, 26</div>
+                    </div>
+
+                    <div class="testimonial">
+                        <p class="testimonial-text">"I've been to 5 events now and have a whole new friend group. This literally changed my Toronto experience."</p>
+                        <div class="testimonial-author">— Rachel, 29</div>
+                    </div>
+
+                    <div class="testimonial">
+                        <p class="testimonial-text">"The vibe is warm but not overwhelming. You can be as social as you want without pressure."</p>
+                        <div class="testimonial-author">— Alex, 33</div>
+                    </div>
+
+                    <div class="testimonial">
+                        <p class="testimonial-text">"I was nervous about attending alone, but within 10 minutes I was chatting like I'd known these people forever."</p>
+                        <div class="testimonial-author">— Priya, 27</div>
+                    </div>
+                </div>
+
+                <div class="photo-grid">
+                    <!-- PHOTO ASSETS: Add event photos to assets/testimonials/ folder -->
+                    <div class="grid-photo">
+                        <div class="photo-placeholder">📸 Event moment 1</div>
+                    </div>
+                    <div class="grid-photo">
+                        <div class="photo-placeholder">📸 Event moment 2</div>
+                    </div>
+                    <div class="grid-photo">
+                        <div class="photo-placeholder">📸 Event moment 3</div>
+                    </div>
+                    <div class="grid-photo">
+                        <div class="photo-placeholder">📸 Event moment 4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECURRING SERIES -->
+    <section class="series">
+        <div class="container">
+            <h2 class="section-title centered">Recurring series you can come back to</h2>
+            <p class="section-intro centered">Build deeper friendships by showing up consistently to the same experiences.</p>
+            
+            <div class="series-list">
+                <div class="series-item">
+                    <div class="series-icon">🧘‍♀️</div>
+                    <div class="series-content">
+                        <h3>Aligned Pilates</h3>
+                        <p>Low-impact movement in a welcoming studio. Perfect for all levels.</p>
+                        <div class="series-meta">
+                            <span class="frequency">Every Saturday • 10 AM</span>
+                            <a href="#" class="series-link">Join next session →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="series-item">
+                    <div class="series-icon">📚</div>
+                    <div class="series-content">
+                        <h3>Book Club</h3>
+                        <p>Monthly deep dives into compelling reads with thoughtful discussion.</p>
+                        <div class="series-meta">
+                            <span class="frequency">Third Thursday • 6:30 PM</span>
+                            <a href="#" class="series-link">Join next session →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="series-item">
+                    <div class="series-icon">🎨</div>
+                    <div class="series-content">
+                        <h3>Stitch Social</h3>
+                        <p>Creative crafting nights with embroidery, knitting, or whatever you're working on.</p>
+                        <div class="series-meta">
+                            <span class="frequency">First Wednesday • 7 PM</span>
+                            <a href="#" class="series-link">Join next session →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOUNDER / MISSION -->
+    <section class="mission" id="about">
+        <div class="container">
+            <div class="mission-content">
+                <div class="mission-photo">
+                    <!-- FOUNDER PHOTO ASSET: Add to assets/founder-photo.jpg -->
+                    <div class="founder-photo-placeholder">
+                        <p>📸 Founder photo<br><small>assets/founder-photo.jpg</small></p>
+                    </div>
+                </div>
+                
+                <div class="mission-text">
+                    <h2 class="section-title">Why Connection Collective exists</h2>
+                    <p>Connection Collective was created because adult friendship can be surprisingly hard—and no one talks about it honestly enough. After moving cities, changing careers, or just watching friend groups naturally drift, many of us find ourselves craving deeper connection but unsure where to find it.</p>
+                    
+                    <p>We're building spaces where showing up solo feels normal, the vibe is warm and intentional, and connection happens naturally—not through forced icebreakers or transactional networking.</p>
+
+                    <p>This is about creating the community we all wish existed.</p>
+
+                    <div class="founder-bio">
+                        <p class="founder-name"><strong>Your Name</strong>, Founder</p>
+                        <p class="founder-note">Former [your background]. Current community builder and professional friend-maker.</p>
+                    </div>
+
+                    <div class="mission-cta">
+                        <a href="#newsletter" class="btn btn-secondary">Join the Newsletter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter" id="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2 class="section-title centered">A monthly note that feels like a group chat</h2>
+                <p class="newsletter-intro">Get the inside scoop on upcoming events, hidden Toronto gems, connection theory mini-essays, and member spotlights.</p>
+
+                <!-- FLODESK FORM: Replace action URL with your Flodesk form embed code -->
+                <form class="newsletter-form" action="YOUR_FLODESK_FORM_URL_HERE" method="POST">
+                    <div class="form-group">
+                        <input 
+                            type="email" 
+                            name="email" 
+                            placeholder="Your email address" 
+                            required
+                            class="newsletter-input"
+                        >
+                        <button type="submit" class="btn btn-primary">Get the invite</button>
+                    </div>
+                    <p class="privacy-note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+                </form>
+
+                <!-- Alternative: If you want to use Flodesk's embed instead -->
+                <!-- 
+                <div class="flodesk-embed">
+                    PASTE YOUR FLODESK EMBED CODE HERE
+                    Instructions:
+                    1. Go to your Flodesk account
+                    2. Navigate to Forms
+                    3. Select your form and click "Embed"
+                    4. Copy the embed code
+                    5. Paste it here, replacing this comment
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title centered">Questions you might have</h2>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do I really have to come alone?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Not at all! You can bring a friend if you'd like. But many people come solo, and we actively create space for that to feel comfortable. Our events are structured so you'll naturally meet new people whether you arrive alone or with someone.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What age range typically attends?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most of our members are women in their mid-20s to mid-30s, though we welcome anyone who resonates with the vibe. The common thread is wanting real connection, not a specific age.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do I know which event to start with?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Look for events tagged "Great for first-timers"—these tend to have more structure and facilitation. But honestly, any event works! Choose something that genuinely interests you, and you'll naturally connect with people who share that interest.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What if I'm shy or introverted?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Many of our members identify as introverted! Our events are designed with gentle facilitation—we create natural conversation moments without forcing you to perform. You can engage at your own comfort level.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How much do events cost?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Events typically range from $20-45 depending on the activity, venue, and materials included. We keep pricing accessible while ensuring quality experiences and fair compensation for hosts and venues.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I get a refund if I can't make it?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We offer full refunds up to 48 hours before an event. Within 48 hours, we can't offer refunds but you're welcome to transfer your ticket to a friend or reach out—we'll do our best to accommodate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta" id="join">
+        <div class="container">
+            <div class="final-cta-content">
+                <h2 class="final-cta-title">Ready to feel more connected this month?</h2>
+                <p class="final-cta-subtitle">Come as you are. Start with one event.</p>
+                <div class="final-cta-buttons">
+                    <a href="#events" class="btn btn-primary btn-large">See Upcoming Events</a>
+                    <a href="#newsletter" class="btn btn-secondary btn-large">Join the Community</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Connection Collective</h4>
+                    <p>Making friends in Toronto—without it being weird.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="TikTok">🎵</a>
+                        <a href="#" aria-label="Email">✉️</a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <a href="#events">Events</a>
+                    <a href="#about">About</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#newsletter">Newsletter</a>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Get in Touch</h4>
+                    <a href="mailto:hello@connectioncollective.ca">hello@connectioncollective.ca</a>
+                    <p>Toronto, Ontario</p>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Stay Connected</h4>
+                    <p>Never miss an event or update.</p>
+                    <a href="#newsletter" class="btn btn-small">Join Newsletter</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Connection Collective. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
